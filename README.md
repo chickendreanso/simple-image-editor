@@ -1,13 +1,16 @@
-# Image Editor in C wit GUI
+# Image Editor in C with GUI
+
+![alt text](sample.png)
 
 ## Overview
 
-This branch contains a image editing tool written in C with Graphical User Interface, designed to process and manipulate image files. Users can upload their desired image and adjust various aspects of the photo, such as brightness, contrast, saturation, or temperature. The program supports a select range of edits, and it is designed with simplicity and efficiency in mind, catering to those who need quick modifications to their images without the need for complex software.
+Simple Image Editor is an image editing tool written in C with Graphical User Interface, designed to process and manipulate image files. Users can upload their desired image and adjust various aspects of the photo, such as brightness, contrast, saturation, or temperature. The program supports a select range of edits, and it is designed with simplicity and efficiency in mind, catering to those who need quick modifications to their images without the need for complex software.
+
 ## Getting Started
 
 To use this tool, clone the repository 
 ```bash
-git clone https://github.com/weihong0827/simple-image-editor.git
+git clone https://github.com/chickendreanso/simple-image-editor.git
 ```
 
 Compile the source code with your C compiler.
@@ -70,11 +73,6 @@ To facilitate undoing changes, the program tracks the state of the photo, mainta
 
 - **Reset Functionality**: Users can reset the image to its initial state (no edits).
 - **Edit Limitations**: Due to the RGB components being 1 byte each, there's a limit to the degree of edits. The program ensures that edits stay within viable ranges and notifies users if an edit is no longer doable.
-
-
-## Contribution
-
-Contributions to this project are welcome. Please adhere to standard coding practices and provide documentation for any new features or edits. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
